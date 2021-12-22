@@ -31,7 +31,6 @@ export default function Cart() {
                 <div className="order-button">
                     <button onClick={placeOrder}>{buttonText}</button>
                 </div> :
-                
                 <p>You have no items in your cart.</p>
             }
         </main>
